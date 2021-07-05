@@ -28,25 +28,21 @@ main {
   margin-right: 0;
 }
 
-.image1 {
-  background-image: url(img/flow01.png);
+.image-area {
   background-size: cover;
   background-position: bottom;
   height: 150px;
+}
+.image1 {
+  background-image: url(img/flow01.png);
 }
 
 .image2 {
   background-image: url(img/flow02.png);
-  background-size: cover;
-  background-position: bottom;
-  height: 150px;
 }
 
 .image3 {
   background-image: url(img/flow03.png);
-  background-size: cover;
-  background-position: bottom;
-  height: 150px;
 }
 
 .step {
@@ -75,7 +71,7 @@ footer {
   main {
     width: 100%;
     display: block;
-    margin: 50px auto;
+    margin: 50px 0;
   }
   .box {
     margin: 0 5% 30px;
@@ -83,24 +79,6 @@ footer {
   }
   .box:last-child {
     margin-bottom: 0;
-  }
-  .image1 {
-    background-image: url(img/flow01.png);
-    background-position: bottom;
-    background-size: cover;
-    height: 250px;
-  }
-  .image2 {
-    background-image: url(img/flow02.png);
-    background-position: bottom;
-    background-size: cover;
-    height: 250px;
-  }
-  .image3 {
-    background-image: url(img/flow03.png);
-    background-position: bottom;
-    background-size: cover;
-    height: 250px;
   }
   footer {
     width: 100%;
